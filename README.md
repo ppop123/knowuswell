@@ -22,6 +22,8 @@ No trivia. No memory tests. Just "how well do you two actually work."
 
 - **Answers never leave your browser.** Scoring happens client-side; the share link carries only a four-letter code in the URL fragment — the server never sees answers.
 - **No accounts, no tracking forms.** The quiz itself needs nothing but a browser.
+- **Card photos are processed in memory only** — proxied to the image model within a single request, never written to disk, KV, or logs (responses are `no-store`).
+- Your finished card is composed in your browser, then stored so you can re-download it — it **expires automatically 30 days after purchase**.
 
 ## For AI assistants (MCP)
 
