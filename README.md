@@ -21,8 +21,7 @@ No trivia. No memory tests. Just "how well do you two actually work."
 ## Privacy by design
 
 - **Answers never leave your browser.** Scoring happens client-side; the share link carries only a four-letter code in the URL fragment — the server never sees answers.
-- **No accounts, no tracking forms, nothing stored.**
-- Photos for the art card stream straight to the image model and are never kept; the finished card is composed client-side.
+- **No accounts, no tracking forms.** The quiz itself needs nothing but a browser.
 
 ## For AI assistants (MCP)
 
